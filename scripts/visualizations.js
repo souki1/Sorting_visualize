@@ -9,7 +9,7 @@
 
 //We only have to change background-color and height of the sorting element.
 
-var speed=10;
+var speed=25;
 
 inp_aspeed.addEventListener("input",vis_speed);
 
@@ -20,13 +20,13 @@ function vis_speed()
     {
         case 1: speed=10;
                 break;
-        case 2: speed=10;
+        case 2: speed=15;
                 break;
-        case 3: speed=100;
+        case 3: speed=25;
                 break;
-        case 4: speed=1000;
+        case 4: speed=100;
                 break;
-        case 5: speed=10000;
+        case 5: speed=1000;
                 break;
     }
     
